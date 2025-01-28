@@ -5,18 +5,19 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    font-family: "Figtree";
 }
 
 .blog-card{
     background-color: hsl(0, 0%, 100%);
-    width: 400px;
-    height: 600px;
+    width: 350px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     border-radius: 20px;
     /* NEW TRICK */
     box-shadow: 10px 10px;
-    padding: 10px;
+    padding: 30px;
 }
 
 svg{
@@ -27,7 +28,29 @@ svg{
     margin-bottom: 15px;
 }
 
+.title{
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    border: 1px solid hsl(47, 88%, 63%);
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 10px;
+}
 
+.info{
+    color: hsl(0, 0%, 42%);
+    font-size: 16px;
+}
+
+.foot{
+    display: flex;
+    height: 50px;
+}
+
+.author{
+    color: hsl(0, 0%, 7%);
+    font-weight: 700;
+}
 .attribution { 
     font-size: 11px; text-align: center; 
 }
